@@ -1,0 +1,14 @@
+{
+    "name": "prisma-example",
+    "version": "0.0.1",
+    "license": "MIT",
+    "dependencies": {
+        "@prisma/cli": "^2.0.0-beta.2",
+        "@prisma/client": "^2.0.0-beta.2"
+    },
+    "scripts": {
+        "migrate-save": "npx prisma migrate save --name init --experimental",
+        "migrate-up": "npx prisma migrate up --experimental",
+        "generate": "npx prisma generate"
+    }
+}
